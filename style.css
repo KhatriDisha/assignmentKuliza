@@ -1,0 +1,619 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box
+}
+
+header{
+    height:auto;
+    width: 83%;
+    background-color: rgba(0, 0, 0, 0.76);
+    margin-left:5%;
+    
+    
+}
+
+
+
+.header{
+    position:relative;
+
+}
+
+.main-nav{
+    list-style: none;
+    
+    padding: 5px;
+    margin-right: 10%;
+    position:absolute;
+
+    
+    
+    
+}
+
+.listitemsetting{
+    color: white;
+    padding: 4px;
+    display: inline-block;
+    margin: 0 5px;
+    font-size:11px;
+
+}
+
+.listitemsetting:hover:after{
+
+    display: block;
+    height: 1px;
+    background-color:orangered;
+    content: "";
+    width: 100%;
+    /* margin: 0 auto; */
+    /* margin-top: 10px; */
+    margin-left: 3%;
+
+}
+
+.main-nav2{
+
+    margin-left: 56%;
+    position: relative;
+    
+    
+}
+
+
+
+.callmesetting{
+    float: left;
+    /* height:2%; */
+    background-color: rgb(43, 116, 226);
+    width:13%;
+    margin-top:2px;
+    margin-bottom:4px;
+    
+}
+
+.selectoptionsetting{
+    background-color: rgba(0, 0, 0, 0.76);
+    color: white;
+    /* text-shadow: 0 0 0 #000; */
+}
+
+/* .optionsetting{ */
+    /* color: white; */
+    /* text-shadow: 0 0 0 #000; */
+/* } */
+
+
+
+
+.list2itemsetting{
+    color: white;
+    display: inline-block;
+    padding: 5px;
+
+    font-size: 11px;
+    
+}
+
+
+
+/* *************************************************************************************************************** */
+
+.rcorners1 {
+    border-radius: 3px;
+    background:rgb(247, 192, 186);
+    /* padding: 20px;  */
+    width: 200px;
+    height: 25px;
+    margin-left:40%; 
+    margin-top: 22px;
+    padding: 2px;
+    font-size:13px;  
+    color:rgba(0, 0, 0, 0.815); 
+}
+.image2setting{
+    margin-right: 4%;
+    margin-left:3%;
+    margin-top:3px;
+}
+
+/* ******************************************************************************************************** */
+.paragraph1setting{
+
+    margin-left:7%;
+    font-size:12px;
+    position: absolute;
+    margin-top:2%;
+}
+
+.viewmore1setting{
+    position: relative;
+    float: right;
+    margin-right:14%;
+    margin-top:1%;
+    font-size: 11px;
+    color:rgb(85, 84, 84);
+}
+
+
+
+.image11setting{
+    margin-right: 5px;
+    font-size:2px;
+    margin-top:8px;
+    height:1%;
+}
+
+.viewmore1setting:after{
+
+    display: block;
+    height: 1px;
+    background-color:grey;
+    content: "";
+    width: 80%;
+    /* margin: 0 auto; */
+    /* margin-top: 10px; */
+    margin-left: 20%;
+
+}
+
+/* ****************************************************************************************************** */
+
+
+
+.image17setting{
+    margin-top: 4.5%;
+    margin-left: 10%;
+    float: left;
+    
+}
+
+.listdivsetting{
+    
+    float: left;
+   margin-top:2%;
+   margin-left:1%;
+   /* border: 1px solid gray; */
+   width:70%;
+    
+
+}
+
+
+.list1setting{
+
+    list-style: none;
+    /* margin:3px; */
+    padding:3px;
+    border: 1px solid rgb(219, 218, 218);
+    background-color: rgba(248, 245, 245, 0.993);
+    border-bottom-color:transparent;
+    border-left-color:rgb(95, 116, 233);
+    border-left-width: 2px;
+    font-size:12px;
+    color: rgb(90, 90, 90);
+
+}
+
+.list2setting{
+
+    list-style: none;
+    /* margin:3px; */
+    padding:3px;
+    border: 1px solid rgb(219, 218, 218);
+    background-color: rgba(248, 245, 245, 0.993);
+    border-bottom-color:transparent;
+    border-left-color:rgb(119, 226, 119);
+    border-left-width: 2px;
+    font-size:12px;
+    color: rgb(90, 90, 90);
+
+}
+.list3setting{
+
+    list-style: none;
+    /* margin:3px; */
+    padding:3px;
+    border: 1px solid rgb(219, 218, 218);
+    background-color: rgba(248, 245, 245, 0.993);
+    border-left-color:orangered;
+    border-left-width: 2px;
+    font-size:12px;
+    color: rgb(90, 90, 90);
+
+}
+
+.playtextsetting{
+    background-color: white;
+    margin-right: 4%;
+    width:8%;
+    padding: 2px;
+    border: 1px solid rgb(221, 219, 219);
+    color: rgb(90, 90, 90);
+    font-size:11px;
+
+}
+
+
+
+.image16setting{
+        margin: 0 5px;
+        /* font-size:1px; */
+        /* height:1%; */
+}
+
+.number1setting{
+    /* width:3%; */
+    margin-right: 2%;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border: 1px solid rgb(221, 219, 219);
+    margin-left:1%;
+    color: rgb(90, 90, 90);
+}
+
+.strongtextsetting{
+    color: black;
+}
+
+
+/* ***************************************************************************************************** */
+.paragraph2setting{
+
+    margin-left:7%;
+    font-size:12px;
+    position: absolute;
+    margin-top:17%;
+}
+
+
+
+/* **************************************************************************************************** */
+
+.image10setting{
+    /* margin-top: 15%; */
+    /* margin-left: 10%; */
+    /* float: right; */
+    /* margin-left: 0; */
+    margin-right: 70%;
+    margin-top:2%;
+    margin-left:9%;
+    /* display: flex; */
+    position: relative;
+    float: left;
+    
+}
+
+.listdiv1setting{
+    
+    /* float: left; */
+   margin-top:18%;
+   /* margin-left:1%; */
+   /* border: 1px solid gray; */
+   width:70%;
+   position: absolute;
+   /* display: flex; */
+   /* display: inline-block; */
+   /* float: right; */
+   /* margin-right: 20%; */
+   margin-left:16.5;
+    
+}
+
+/* ################################################################################# */
+
+.maindiv{
+    height:20%;
+    width:70%;
+    background-color: rgba(248, 245, 245, 0.993);
+    /* border: 2px solid rgb(219, 218, 218); */
+    /* float: left; */
+    position: absolute;
+    margin-left:16.5%;
+    margin-top:19%;
+}
+
+
+
+
+.div1{
+    
+    float: left;
+    /* background-color: palevioletred; */
+    width:25%;
+    height:100%;
+    border: 1px solid rgb(219, 218, 218);
+    border-right-color:transparent;
+}
+
+.div2{
+    
+    float: left;
+    /* background-color: #FA8072; */
+    width:25%;
+    height:100%;
+    border: 1px solid rgb(219, 218, 218);
+    border-right-color:transparent;
+}
+
+.div3{
+    
+    float: left;
+    /* background-color: blueviolet; */
+    width:25%;
+    height:100%;
+    border: 1px solid rgb(219, 218, 218);
+    border-right-color:transparent;
+}
+
+.div4{
+    
+    float: left;
+    /* background-color: blue; */
+    width:25%;
+    height:100%;
+    border: 1px solid rgb(219, 218, 218);
+}
+.divtext1{
+        float: left;
+        width:30%;
+        /* background-color: green; */
+        height: 100%;
+    
+}
+.graphtextsetting{
+    margin-left: 15%;
+    margin-top:10%;
+    color:rgba(0, 0, 0, 0.788)
+}
+
+.divpara1{
+    float: left;
+    width:70%;
+    height:100%; 
+}
+
+
+
+.dialtextsetting{
+    margin-left:10%;
+    margin-top:8%;
+    text-transform: uppercase;
+    font-size:13px;
+    color:rgba(0, 0, 0, 0.788)
+}
+
+.dialtextsetting:after{
+
+    display: block;
+    height: 1px;
+    background-color:rgb(219, 218, 218);
+    content: "";
+    width: 90%;
+    /* margin: 0 auto; */
+    margin-top: 5px;
+    /* margin-left: 10%; */
+
+}
+
+.yourgoaltextsetting{
+    margin-left:10%;
+    margin-top:3%;
+    color: rgb(90, 90, 90);
+    font-size:14px;
+}
+
+.tiptextsetting{
+    font-size:15px;
+    float: right;
+    margin-left:10%;
+    margin-top:3%;
+    color: rgb(90, 90, 90);
+    font-size:13px;
+}
+
+.numerical1setting{
+    color:rgb(81, 81, 247);
+}
+
+.numerical2setting{
+    color:orangered;
+}
+.numerical3setting{
+    color:rgb(231, 78, 162);
+}
+.numerical4setting{
+    color:purple;
+}
+
+
+.viewmore2setting{
+    position: relative;
+    float: right;
+    margin-right:14%;
+    margin-top:4%;
+    font-size: 11px;
+    color:rgb(85, 84, 84);
+}
+
+
+
+
+.image11setting{
+    margin-right: 5px;
+    font-size:1px;
+    margin-top:8px;
+    height:1%;
+}
+
+.viewmore2setting:after{
+
+    display: block;
+    height: 1px;
+    background-color:grey;
+    content: "";
+    width: 80%;
+    /* margin: 0 auto; */
+    /* margin-top: 10px; */
+    margin-left: 20%;
+
+}
+
+
+
+
+
+
+
+/* ***************************************************************************************** */
+
+.paragraph3setting{
+
+    margin-left:7%;
+    font-size:12px;
+    position: absolute;
+    margin-top:33%;
+}
+
+
+
+
+
+.viewmore3setting{
+    /* position: relative; */
+    float: right;
+    margin-right:14%;
+    margin-top:4%;
+    font-size: 11px;
+    margin-left:70%;
+    color:rgb(85, 84, 84);
+}
+
+
+
+
+.image11setting3{
+    margin-right: 5px;
+    font-size:2px;
+    margin-top:8px;
+    height:1%;
+}
+
+
+.image20setting{
+    /* margin-top: 15%; */
+    /* margin-left: 10%; */
+    /* float: right; */
+    /* margin-left: 0; */
+    margin-right: 70%;
+    margin-top:1%;
+    margin-left:8%;
+    /* display: flex; */
+    position: relative;
+    float: left;
+    
+}
+
+
+
+
+.viewmore3setting:after{
+
+    display: block;
+    height: 1px;
+    background-color:grey;
+    content: "";
+    width: 80%;
+    /* margin: 0 auto; */
+    /* margin-top: 10px; */
+    margin-left: 20%;
+    
+
+}
+
+
+
+.listdiv2setting{
+    
+    /* float: left; */
+   margin-top:34.5%;
+   /* margin-left:1%; */
+   /* border: 1px solid gray; */
+   width:70%;
+   position: absolute;
+   /* display: flex; */
+   /* display: inline-block; */
+   /* float: right; */
+   /* margin-right: 20%; */
+   margin-left:16.5%;
+    
+}
+
+
+
+
+
+
+/* *********************************************************************************************** */
+
+
+.footersetting{
+    height:18%;
+    /* background-color: grey; */
+    background-color: rgb(221, 218, 218);
+    
+    width:86%;
+    margin-top:47%;
+    margin-left:4%;
+    margin-bottom: 7%;
+}
+
+
+
+
+.copywritesetting{
+    float: left;
+    margin-left:35%;
+    margin-top: 3px;
+    font-size:13px;
+    color: rgb(78, 77, 77);
+
+}
+
+.socialmediaboxsetting{
+    /* float: left; */
+    margin-left:55%;
+    /* margin-top: 4px; */
+    
+}
+
+.twitterimagesetting{
+    padding:2px;
+    /* margin:2px; */
+    /* margin-top: 2px; */
+}
+
+.linkedinimagesetting{
+    padding:2px;
+    /* margin:2px; */
+}
+
+.supportimagesetting{
+    padding:2px;
+    /* margin:2px; */
+    /* margin-top: px; */
+}
+
+
+
+
+
+
+
+ 
+    
+    
